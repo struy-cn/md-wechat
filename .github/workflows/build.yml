@@ -14,8 +14,6 @@ jobs:
         with:
           persist-credentials: false
       - name: Github Pages
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
         uses: StruggleYang/VuePagesAction@2.0.0
         with:
           cname: md.struy.cn
