@@ -148,11 +148,14 @@
         </el-dropdown-menu>
       </el-dropdown>
     </div>
+    <el-button plain size="medium">
+      <a href="https://struy.cn" target="_blank"> 个人博客 </a>
+    </el-button>
     <el-button plain size="medium" :type="btnType" @click="copy">
       复制
     </el-button>
     <el-button plain size="medium" :type="btnType" @click="prePost">
-      发布
+      多平台发布
     </el-button>
 
     <post-info-dialog
@@ -184,7 +187,7 @@ export default {
   data() {
     return {
       config,
-      citeStatus: false,
+      citeStatus: true,
       isMacCodeBlock: true,
       showResetConfirm: false,
       selectFont: ``,
@@ -389,7 +392,7 @@ export default {
       this.showResetConfirm = false
       localStorage.clear()
       this.cssEditor.setValue(DEFAULT_CSS_CONTENT)
-      this.citeStatus = false
+      this.citeStatus = true
       this.statusChanged(false)
       this.fontChanged(this.config.builtinFonts[0].value)
       this.colorChanged(this.config.colorOption[0].value)
@@ -425,6 +428,7 @@ export default {
     this.selectSize = this.currentSize
     this.selectColor = this.currentColor
     this.selectCodeTheme = this.codeTheme
+    console.log(`this.citeStatus`, this.citeStatus, this.currentCiteStatus)
     this.citeStatus = this.currentCiteStatus
     this.isMacCodeBlock = this.currentIsMacCodeBlock
 

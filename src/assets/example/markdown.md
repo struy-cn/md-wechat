@@ -1,4 +1,6 @@
-# 示例文章：Google 搜索的即时自动补全功能究竟是如何“工作”的？
+# 示例：Google 搜索即时自动补全是如何“工作”的？
+
+![](http://img.struy.cn/img/202304212313285.png)
 
 > Google 搜索**自动补全功能**的强大，相信不少朋友都能感受到，它帮助我们更快地“补全”我们所要输入的搜索关键字。那么，它怎么知道我们要输入什么内容？它又是如何工作的？在这篇文章里，我们一起来看看。
 
@@ -108,13 +110,14 @@ public class HelloController{
 
 #### 推荐阅读
 
-- [给有需要的开发大佬，Github学生包和IDEA集火](https://mp.weixin.qq.com/s/PEq_9nKKEPEsXWxlF70bhQ)
+- [给有需要的开发大佬，Github学生包和IDEA激🔥](https://mp.weixin.qq.com/s/PEq_9nKKEPEsXWxlF70bhQ)
 - [持续分享有用有意思的工具与技术](https://mp.weixin.qq.com/s/9tVAG5VqfnovZleUO01WeA)
 - [本地白嫖AI绘画 ，Stable Diffusion 初探！](https://mp.weixin.qq.com/s/q1dEqFq1HldNsRuOT0QmTg)
+- [老杨的知识荒原博客](https://struy.cn)
 
 ---
 
-欢迎关注我的公众号“**StruggleYang**”，原创技术、工具文章第一时间推送。
+关注我的公众号“**StruggleYang**”，持续分享有价值的工具、技术、好物与书籍
 
 <center>
     <img src="https://img.struy.cn/img/202304212313349.png" style="width: 100px;">

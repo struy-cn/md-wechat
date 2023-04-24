@@ -19,7 +19,7 @@ const state = {
   currentFont: ``,
   currentSize: ``,
   currentColor: ``,
-  citeStatus: false,
+  citeStatus: true,
   nightMode: false,
   codeTheme: config.codeThemeOption[2].value,
   isMacCodeBlock: true,
@@ -71,7 +71,7 @@ const mutations = {
       localStorage.getItem(`size`) || config.sizeOption[2].value
     state.codeTheme =
       localStorage.getItem(`codeTheme`) || config.codeThemeOption[2].value
-    state.citeStatus = localStorage.getItem(`citeStatus`) === `true`
+    state.citeStatus = localStorage.getItem(`citeStatus`) !== `false`
     state.nightMode = localStorage.getItem(`nightMode`) === `true`
     state.isMacCodeBlock = !(localStorage.getItem(`isMacCodeBlock`) === `false`)
     state.wxRenderer = new WxRenderer({
